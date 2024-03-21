@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
+
+/* Apply glass effect to form */
+.form {
+  position: relative;
+  z-index: 1;
+  background: rgba(255, 255, 255, 0.3); /* Transparent white background */
+  border-radius: 10px;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 35px;
+  text-align: center;
+  font-family: "Comfortaa", cursive;
+  backdrop-filter: blur(10px); /* Apply blur effect to backdrop */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08); /* Shadow effect */
+}
+
+/* Apply glass effect to body background */
+body {
+  background: linear-gradient(90deg, rgba(245, 245, 220, 0.5) 0%, rgba(245, 245, 220, 0.5) 0%);
+  /* Adjust opacity and color as needed */
+}
+
+/* Style button */
+.button {
+  font-weight: bold;
+}
+
+/* Style table */
+table {
+  border-collapse: collapse;
+  padding: 5%;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
